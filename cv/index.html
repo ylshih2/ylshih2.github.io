@@ -76,7 +76,7 @@
       </header>
       <section class="content">
         <div class="row">
-          <div class="col personal-details me-4">
+          <div class="col about me-4">
             <div class="row list-item me-5">
               <div class="col-auto">
                 <animatable-component autoplay animation="heartBeat" easing="ease-in" duration="1200">
@@ -219,67 +219,95 @@
               </div>
             </div>
             </animatable-component>
-            <div class="row mt-5">
-              <div class="col-auto bullet pt-2">
-                <i class="bi bi-circle-fill"></i>
-              </div>
-              <div class="col">
-                <p class="title">Work Experience</p>
-              </div>
-            </div>
-            <div class="row record mb-4 bullet" v-for="employment in employmentHistory">
-              <div class="col-auto">
-                <i class="bi bi-record-circle"></i>
-              </div>
-              <div class="col">
-                <p class="text-uppercase fw-bold position-relative">
-                  {{ employment.jobTitle }}
-                  <span>&nbsp;|&nbsp;{{ employment.startDate }} - {{ employment.endDate }}</span>
-                </p>
-                <p class=" fst-italic fw-bold">
-                  {{ employment.employer }}, {{ employment.city }}
-                </p>
-                <div v-for="project in employment.projects"> 
-                  <p class="fw-bold">Product: <a class="mb-0 fw-bold" :href=project.url>
-                  {{ project.name }}
-                </a>
-                <p class="mb-0" v-for="achievement in project.achievements">
-                    • {{ achievement }}
-                </p>
+            <animatable-component
+              autoplay
+              animation="fade-in-right"
+              easing="ease-in-out"
+              duration="1200"
+            >
+              <div class="row mt-5">
+                <div class="col-auto bullet pt-2">
+                  <i class="bi bi-circle-fill"></i>
                 </div>
-                <p class="mb-0" v-for="achievement in employment.achievements">
-                  • {{ achievement }}
-                </p>
-                
+                <div class="col">
+                  <p class="title">Work Experience</p>
+                </div>
               </div>
-            </div>              
-           <div class="row mt-5">
-              <div class="col-auto bullet pt-2">
-                <i class="bi bi-circle-fill"></i>
-              </div>
-              <div class="col">
-                <p class="title">Education</p>
-              </div>
-            </div>
-            <div class="row record mb-4 bullet" v-for="education in educationHistory">
-              <div class="col-auto">
-                <i class="bi bi-record-circle"></i>
-              </div>
-              <div class="col">
-                <p class="text-uppercase fw-bold position-relative">
-                  {{ education.school }}
-                  <span>&nbsp;|&nbsp;{{ education.startDate }} - {{ education.endDate }}</span>
-                </p>
-                <p class=" fst-italic ">
-                  {{ education.department }}
-                </p>
-                
-                <p class="mb-0" v-for="achievement in education.achievements">
-                  • {{ achievement }}
-                </p>
-              </div>
-            </div>              
-          </div>        
+            </animatable-component>
+            <animatable-component
+              autoplay
+              animation="fade-in-right"
+              easing="ease-in-out"
+              duration="1200"
+            >
+              <div class="row record mb-4 bullet" v-for="employment in employmentHistory">
+                <div class="col-auto">
+                  <i class="bi bi-record-circle"></i>
+                </div>
+                <div class="col ">
+                  <p class="text-uppercase fw-bold position-relative">
+                    {{ employment.jobTitle }}
+                    <span>&nbsp;|&nbsp;{{ employment.startDate }} - {{ employment.endDate }}</span>
+                  </p>
+                  <p class=" fst-italic fw-bold">
+                    {{ employment.employer }}, {{ employment.city }}
+                  </p>
+                  <div v-for="project in employment.projects"> 
+                    <p class="fw-bold">Product: <a class="mb-0 fw-bold" :href=project.url>
+                    {{ project.name }}
+                  </a>
+                  <p class="mb-0" v-for="achievement in project.achievements">
+                      • {{ achievement }}
+                  </p>
+                  </div>
+                  <p class="mb-0" v-for="achievement in employment.achievements">
+                    • {{ achievement }}
+                  </p>
+                  
+                </div>
+              </div> 
+            </animatable-component>
+            <animatable-component
+              autoplay
+              animation="fade-in-right"
+              easing="ease-in-out"
+              duration="1200"
+            >             
+              <div class="row mt-5">
+                  <div class="col-auto bullet pt-2">
+                    <i class="bi bi-circle-fill"></i>
+                  </div>
+                  <div class="col">
+                    <p class="title">Education</p>
+                  </div>
+                </div>
+              </animatable-component>
+              <animatable-component
+                autoplay
+                animation="fade-in-right"
+                easing="ease-in-out"
+                duration="1200"
+              >
+                <div class="row record mb-4 bullet" v-for="education in educationHistory">
+                  <div class="col-auto">
+                    <i class="bi bi-record-circle"></i>
+                  </div>
+                  <div class="col">
+                    <p class="text-uppercase fw-bold position-relative">
+                      {{ education.school }}
+                      <span>&nbsp;|&nbsp;{{ education.startDate }} - {{ education.endDate }}</span>
+                    </p>
+                    <p class=" fst-italic ">
+                      {{ education.department }}
+                    </p>
+                    
+                    <p class="mb-0" v-for="achievement in education.achievements">
+                      • {{ achievement }}
+                    </p>
+                  </div>
+                </div>   
+              </animatable-component>           
+                 
 
         </div>
 

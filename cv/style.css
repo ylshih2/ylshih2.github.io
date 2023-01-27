@@ -13,7 +13,7 @@
 }
 
 html {
-  font-size: 62.5%
+  font-size: 50%
 }
 
 .container-fluid {
@@ -37,7 +37,7 @@ p {
   justify-content: center;
 }
 a {
-  color:rgba(212, 128, 170, 1);
+  color:rgba(212, 128, 170, 1) !important;
   font-size: 2.48262rem;
   letter-spacing: 0.115103rem;
   word-break: break-all;
@@ -45,7 +45,7 @@ a {
   justify-content: center;
 }
 a {
-  color: rgba(212, 128, 170, 1);
+  color: rgba(212, 128, 170, 1) !important;
   text-decoration: none;
 }
 .headLine {
@@ -90,18 +90,18 @@ a {
 .jobTitle {
   padding-right: 0px;
   margin-top: 4.51385rem;
-  color: #eeeeee;
+  color: #eeeeee;}
   
-  span {
+.jobTitle .span {
     padding-left: 1rem;
     letter-spacing: 0.710932rem;
     text-transform: uppercase;
     word-break: break-all;
     direction: ltr;
-    color: #2bbc8a;
+    color: #2bbc8a ;
     font-size: 3.04685rem;
   }
-}
+
 
 .photo {
   width: 27.2rem;
@@ -133,11 +133,12 @@ a {
 .list-item {
   padding-top: 2.03123rem;
   padding-bottom: 2.03123rem;
-  margin-right: 1rem;
-  &:not(:last-child) {
-    border-bottom: 0.225693rem solid #2bbc8a;
+  margin-right: 1rem;}
+
+.list-item :not(:last-child) {
+    border-bottom: 0.225693rem solid #2bbc8a  ;
   }
-}
+
 
 .title {
   width: 100%;
@@ -148,50 +149,53 @@ a {
   border-bottom: 1px solid #2bbc8a;
   padding-top: 0rem;
   padding-bottom: 3.8rem;
-  color: #eeeeee;
+  color: #eeeeee ;
   letter-spacing: 1.01562rem;
   margin-bottom: 1.8rem;
 }
 
-.personal-details {
-  .title {
+.about .title {
     padding-top: 4rem;
   }
-}
+
 
 .bullet {
   position: relative;
-  i {
-    font-size: 2.6rem;
-  }
-  &:before {
-    content: "";
-    position: absolute;
-    left: 1.9rem;
-    width: 0.3rem;
-    height: 70%;
-    background-color: #2bbc8a;
-    margin-top: 4.2rem;
-  }
 }
 
+
+.bullet:before {
+    content: "";
+    position: absolute;
+    left: 1.4rem;
+    width: 0.3rem;
+    height: 70%;
+    background-color: #2bbc8a !important;
+    margin-top: 4.2rem;
+  }
+.bullet .i {
+    font-size: 2.6rem;
+    background-color: #2bbc8a !important;
+  }
 .record {
-  padding-top: 2rem;
-  p {
+  padding-top: 2rem}
+
+.record .p {
     width: 100%;
     font-size: 2.7rem;
     line-height: 1.33;
     color: #eeeeee;
     word-break: break-word;
     display: block;
+    background-color: #2bbc8a !important ;
   }
-}
+
 
 li {
   font-family: Raleway;
   line-height: 1.33;
   font-size: 2.8806rem;
-  color: #cccccc;
+  color: #cccccc ;
 }
 
 span {
