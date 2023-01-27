@@ -19,7 +19,7 @@ const resume = {
     links: [
       {
         label: 'LinkedIn',
-        link: 'https://www.linkedin.com/in/martin-arturo-torres-naranjo-679620102/'
+        link: 'https://www.linkedin.com/in/scott-shih-247b3392/'
       }
     ],
     skills: [
