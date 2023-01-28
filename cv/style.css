@@ -29,8 +29,8 @@ li::marker {
 }
 
 p {
-  font-size: 2.48262rem;
-  letter-spacing: 0.115103rem;
+  font-size: 2.48262vmin;
+  letter-spacing: 0.115103vmin;
   color: #c9cacc;
   word-break: break-all;
   -webkit-box-pack: center;
@@ -38,8 +38,8 @@ p {
 }
 a {
   color:rgba(212, 128, 170, 1) !important;
-  font-size: 2.48262rem;
-  letter-spacing: 0.115103rem;
+  font-size: 2.48262vmin;
+  letter-spacing: 0.115103vmin;
   word-break: break-all;
   -webkit-box-pack: center;
   justify-content: center;
@@ -49,18 +49,18 @@ a {
   text-decoration: none;
 }
 .headLine {
-  width: 0.225693rem;
+  width: 0.225693vmin;
   top: 0px;
-  left: 1rem;
-  height: 11.9617rem;
+  left: 1vmin;
+  height: 11.9617vmin;
   background-color: #2bbc8a;
 }
 
 .header {
-  padding-top: 17.8297rem;
-  padding-bottom: 10rem;
+  padding-top: 17.8297vmin;
+  padding-bottom: 10vmin;
   direction: ltr;
-  margin-bottom: 3rem;
+  margin-bottom: 3vmin;
 }
 
 .firstName {
@@ -68,94 +68,94 @@ a {
   text-transform: uppercase;
   word-break: break-all;
   color: #2bbc8a;
-  font-size: 6.65793rem;
+  font-size: 6.65793vmin;
   line-height: 1.68;
-  letter-spacing: 3.89546rem;
-  margin-bottom: 1.12846rem;
+  letter-spacing: 3.89546vmin;
+  margin-bottom: 1.12846vmin;
   direction: ltr;
 }
 
 .lastName {
   font-weight: bold;
-  font-size: 9.02771rem;
+  font-size: 9.02771vmin;
   text-transform: uppercase;
   word-break: break-all;
-  padding-right: 5.64232rem;
+  padding-right: 5.64232vmin;
   color: #2bbc8a;
   line-height: 1.09;
-  letter-spacing: 4.15952rem;
+  letter-spacing: 4.15952vmin;
   direction: ltr;
 }
 
 .jobTitle {
   padding-right: 0px;
-  margin-top: 4.51385rem;
+  margin-top: 4.51385vmin;
   color: #eeeeee;}
   
 .jobTitle .span {
-    padding-left: 1rem;
-    letter-spacing: 0.710932rem;
+    padding-left: 1vmin;
+    letter-spacing: 0.710932vmin;
     text-transform: uppercase;
     word-break: break-all;
     direction: ltr;
     color: #2bbc8a ;
-    font-size: 3.04685rem;
+    font-size: 3.04685vmin;
   }
 
 
 .photo {
-  width: 27.2rem;
-  height: 27.2rem;
+  width: 27.2vmin;
+  height: 27.2vmin;
   max-height: 270px;
   object-fit: contain;
 }
 
 .middleLine {
-  width: 0.225693rem;
-  bottom: 3.1597rem;
-  left: 1rem;
-  height: 5.64232rem;
+  width: 0.225693vmin;
+  bottom: 3.1597vmin;
+  left: 1vmin;
+  height: 5.64232vmin;
   background-color: #2bbc8a;
 }
 
 .icon {
-  width: 5rem;
-  height: 5rem;
-  font-size: 2.5rem;
+  width: 5vmin;
+  height: 5vmin;
+  font-size: 2.5vmin;
   color: white;
   background-color: #1d1f21;
   border-radius: 50%;
-  padding: 0.7rem;
+  padding: 0.7vmin;
 }
 
 
 
 .list-item {
-  padding-top: 2.03123rem;
-  padding-bottom: 2.03123rem;
-  margin-right: 1rem;}
+  padding-top: 2.03123vmin;
+  padding-bottom: 2.03123vmin;
+  margin-right: 1vmin;}
 
 .list-item :not(:last-child) {
-    border-bottom: 0.225693rem solid #2bbc8a  ;
+    border-bottom: 0.225693vmin solid #2bbc8a  ;
   }
 
 
 .title {
   width: 100%;
   font-weight: bold;
-  font-size: 4rem;
+  font-size: 4vmin;
   text-transform: uppercase;
-  line-height: 4.5rem;
+  line-height: 4.5vmin;
   border-bottom: 1px solid #2bbc8a;
-  padding-top: 0rem;
-  padding-bottom: 3.8rem;
+  padding-top: 0vmin;
+  padding-bottom: 3.8vmin;
   color: #eeeeee ;
-  letter-spacing: 1.01562rem;
-  margin-bottom: 1.8rem;
+  letter-spacing: 1.01562vmin;
+  margin-bottom: 1.8vmin;
 }
 
 .about .title {
-    padding-top: 4rem;
+    padding-top: 4vmin;
   }
 
 
@@ -167,22 +167,22 @@ a {
 .bullet:before {
     content: "";
     position: absolute;
-    left: 1.4rem;
-    width: 0.3rem;
+    left: 1.4vmin;
+    width: 0.3vmin;
     height: 70%;
     background-color: #2bbc8a !important;
-    margin-top: 4.2rem;
+    margin-top: 4.2vmin;
   }
 .bullet .i {
-    font-size: 2.6rem;
+    font-size: 2.6vmin;
     background-color: #2bbc8a !important;
   }
 .record {
-  padding-top: 2rem}
+  padding-top: 2vmin}
 
 .record .p {
     width: 100%;
-    font-size: 2.7rem;
+    font-size: 2.7vmin;
     line-height: 1.33;
     color: #eeeeee;
     word-break: break-word;
@@ -194,15 +194,15 @@ a {
 li {
   font-family: Raleway;
   line-height: 1.33;
-  font-size: 2.8806rem;
+  font-size: 2.8806vmin;
   color: #cccccc ;
 }
 
 span {
   color: #eeeeee;
-  font-size: 2.28048rem;
+  font-size: 2.28048vmin;
   line-height: 1.2;
-  letter-spacing: 0.5rem;
+  letter-spacing: 0.5vmin;
 }
 
 .btn-group-fab {
@@ -246,15 +246,15 @@ color:#1d1f21}
     font-size: 23%;
   }
   .header {
-    padding-top: 12rem;
-    padding-bottom: 9rem;
+    padding-top: 12vmin;
+    padding-bottom: 9vmin;
   }
   .col-8{
     float: left !important;
     width: 66.6666% !important ;
   }}
   ul li {
-    margin-left: 1rem;
+    margin-left: 1vmin;
   }
 }
 
