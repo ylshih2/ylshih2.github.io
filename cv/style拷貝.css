@@ -232,11 +232,6 @@ span {
 }
 .bi-printer{background-color: #2bbc8a !important;
 color:#1d1f21}
-@media (max-width: 744px) {
-  .col-8{
-    float: left !important;
-    width: 92% !important;
-  }}
 @media print {
   @page {
     size: A4;
@@ -249,12 +244,8 @@ color:#1d1f21}
     padding-top: 12rem;
     padding-bottom: 9rem;
   }
-  .col-8{
-    float: left !important;
-    width: 66.6666% !important ;
-  }}
+  
   ul li {
     margin-left: 1rem;
   }
 }
-
