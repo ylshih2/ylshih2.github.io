@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-01-27T09:10:55.440Z</updated>
+  <updated>2023-01-25T04:18:28.076Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,26 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>Barber of seville</title>
-    <link href="http://example.com/2023/01/25/Test/"/>
-    <id>http://example.com/2023/01/25/Test/</id>
-    <published>2023-01-25T06:24:00.000Z</published>
-    <updated>2023-01-27T09:10:55.440Z</updated>
-    
-    <content type="html"><![CDATA[<iframe src="https://open.spotify.com/embed/track/3PGPfeQTaZgHnmofWYBHSW?si=ef37a559b1c24d82/undefined" width="large" height="undefined" frameborder="0" allowtransparency="allowtransparency" allow="encrypted-media"></iframe>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;iframe src=&quot;https://open.spotify.com/embed/track/3PGPfeQTaZgHnmofWYBHSW?si=ef37a559b1c24d82/undefined&quot; width=&quot;large&quot; height=&quot;undefined&quot; fra</summary>
-      
-    
-    
-    
-    
-  </entry>
   
   <entry>
     <title>開始</title>
