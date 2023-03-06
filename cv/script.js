@@ -34,7 +34,7 @@ const resume = {
     employmentHistory: [
       {
         jobTitle: 'Product Manager',
-        startDate: 'Jan 2023',
+        startDate: 'Jan 2022',
         endDate: 'Present',
         employer: 'Taiwan AILabs',
         city: 'Taipei',
